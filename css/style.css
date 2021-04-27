@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* NAV */
 .nav-box {
     background-color: white;
     color: #42A5FF;
@@ -16,10 +18,15 @@ body {
 .nav-desktop {
     display: none;
     text-align: center;
-    padding: 5px;
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    padding: 30px 5px 10px 5px;
     font-size: 20px;
     list-style: none;
     text-transform: uppercase;
+    background-color: white;
+    z-index: 1;
 }
 
 .nav-desktop a {
@@ -33,9 +40,11 @@ body {
 }
 
 .nav-mobile {
-    text-align: right;
-    padding: 15px 20px 0 0;
-    font-size: 22px;
+    position: absolute;
+    padding: 15px 40px 0 0;
+    right: 0;
+    font-size: 24px;
+    z-index: 3;
     transition: .3s;
 }
 
@@ -45,4 +54,66 @@ body {
 
 .fa-times {
     display: none;
+}
+
+/* HEADER */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/background_mini.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.hero-inner {
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    z-index: 2;
+}
+
+.hero-inner h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero-inner span {
+    display: block;
+    padding: 2px;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family: 'Suez One', serif;
+    color: #42A5FF;
+}
+
+.hero-inner p {
+    margin: 20px 0 25px 0;
+    color: white;
+}
+
+.hero-inner a {
+    text-decoration: none;
+    padding: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+    transition: background-color .3s, color .3s;
+}
+
+.hero-inner a:hover {
+    background-color: white;
+    color: rgb(46, 43, 43);
 }

@@ -1,5 +1,6 @@
 /* (min-width: 768px) */
 
-.nav-desktop {
-    font-size: 22px;
+/* HEADER */
+.hero {
+    background-image: url('../img/background_max.jpg');
 }

@@ -1,5 +1,6 @@
 /* (min-width: 576px) */
 
+/* NAV */
 .nav-mobile {
     display: none;
 }
@@ -8,10 +9,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    padding: 5px 5px;
     font-size: 20px;
+    background: none;
 }
 
 .nav-desktop a {
-    padding: 10px;
+    padding: 0 10px;
+}
+
+/* HEADER */
+.hero-inner h1 {
+    font-size: 26px;
+}
+.hero-inner span {
+    display: inline;
+}
+
+.hero-inner p {
+    font-size: 20px;
 }
