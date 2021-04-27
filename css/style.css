@@ -71,8 +71,8 @@ body {
 
 .hero-shadow {
     position: absolute;
-    width: 100%;
-    height: 100%;   
+    width: 100vw;
+    height: 100vh;   
     background-color: rgba(0, 0, 0, 0.85);
 }
 
@@ -116,4 +116,40 @@ body {
 .hero-inner a:hover {
     background-color: white;
     color: rgb(46, 43, 43);
+}
+
+/* ABOUT ME */
+.aboutme-box {
+    width: 100vw;
+    height: auto;
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin: 15px;
+    text-transform: uppercase;
+    color: #42A5FF;
+}
+
+.aboutme-text {
+    text-align: justify;
+    padding: 20px;
+}
+
+.aboutme-text span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.aboutme-text p {
+    padding-top: 15px;
+}
+
+.aboutme-img {
+    text-align: center;
+}
+
+.aboutme-img img {
+    height: 350px;
 }
