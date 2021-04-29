@@ -185,3 +185,41 @@ h2 {
     width: 90vw;
     height: auto;
 }
+
+/* CONTACT */
+.contact-box {
+    width: 100vw;
+    height: auto;
+    padding: 15px 0 40px 0;
+    color: white;
+    background-color: #181818;
+}
+
+.contact-box h2 {
+    color: #42A5FF;
+}
+
+.contact-box p {
+    display: inline;
+}
+
+.contact-box div {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-box .fas {
+    padding-right: 10px;
+    color: #42A5FF;
+}
+
+/* FOOTER */
+.footer-box {
+    width: 100vw;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    border-top: 0.5px solid rgb(107, 100, 100);
+    background-color: #181818;
+}

@@ -36,18 +36,16 @@
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
-    /* display: inline-block; */
 }
 
  .card {
     display: inline-block;
     width: 48%;
     padding: 5px;
-    /* border: 1px solid black; */
 }
 
 .card img {
+    display: block;
     width: 100%;
     height: auto;
-    display: block;
 } 

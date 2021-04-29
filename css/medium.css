@@ -48,6 +48,7 @@ h2 {
 .services-box {
     display: flex;
     width: 50vw;
+    margin-bottom: 50px;
 }
 
 .card {
@@ -70,4 +71,9 @@ h2 {
 .card-text h5 {
     text-align: center;
     text-transform: uppercase;
+}
+
+/* CONTACT  */
+.contact-box p {
+    font-size: 20px;
 }
