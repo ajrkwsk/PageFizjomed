@@ -123,6 +123,7 @@ body {
     width: 100vw;
     height: auto;
     margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -152,4 +153,35 @@ h2 {
 
 .aboutme-img img {
     height: 350px;
+}
+
+/* SERVICES */
+.services-box {
+    width: 90vw;
+    margin: auto;
+}
+
+.card {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.card-text {
+    width: 100%;
+    padding: 0 10px;
+    text-align: justify;
+    background-color: #ebeef1;
+    z-index: 1;
+}
+
+.card-text h5 {
+    padding: 10px 0 5px 0;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.card img {
+    width: 90vw;
+    height: auto;
 }

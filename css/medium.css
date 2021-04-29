@@ -11,20 +11,19 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-
 }
 
 /* ABOUT ME */
 .aboutme-box {
     display: flex;
     width: 80vw;
-    height: 80vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .aboutme-text {
@@ -37,10 +36,38 @@ h2 {
 }
 
 .aboutme-text p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .aboutme-img {
     width: 50%;
     height: auto;
+}
+
+/* SERVICES */
+.services-box {
+    display: flex;
+    width: 50vw;
+}
+
+.card {
+    position: relative;
+    width: 50vw;
+}
+
+.card-text {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    bottom: -30px;
+    right: -30px;
+    padding: 5px;
+    text-align: justify;
+    color:white;
+    background-color: #223c55;
+}
+
+.card-text h5 {
+    text-align: center;
+    text-transform: uppercase;
 }
