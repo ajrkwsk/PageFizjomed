@@ -1,11 +1,19 @@
 /* (min-width: 768px) */
 
+/* NAV */
+.nav-desktop {
+    width: 100vw;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 24px;
+}
+
 /* HEADER */
 .hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     background-image: url('../img/background_max.jpg');
     background-position: center;
@@ -13,21 +21,38 @@
     background-attachment: fixed;
 }
 
+.hero-inner h1 {
+    font-size: 35px;
+}
+
+.hero-inner span {
+    font-size: 45px;
+}
+
+.hero-inner p {
+    font-size: 25px;
+}
+
+.hero-inner a {
+    font-size: 22px;
+}
+
+
 /* ABOUT ME */
 .aboutme-box {
     display: flex;
-    width: 80vw;
+    width: 70vw;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 
 h2 {
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .aboutme-text {
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 
@@ -40,8 +65,38 @@ h2 {
 }
 
 .aboutme-img {
-    width: 50%;
+    width: 40%;
     height: auto;
+    padding-top: 30px;
+}
+
+.aboutme-skills {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-position: left;
+}
+
+.skills-item {
+    display: inline-block;
+    padding: 60px 100px;
+    text-align: center;
+}
+
+.skills-item i {
+    width: 70px;
+    height: 64px;
+    padding: 15px 10px 10px 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.skills-item p {
+    width: 220px;
+    height: 70px;
+    padding-top: 15px;
+    overflow: hidden;
 }
 
 /* SERVICES */
@@ -76,4 +131,9 @@ h2 {
 /* CONTACT  */
 .contact-box p {
     font-size: 20px;
+}
+
+/* FOOTER */
+.footer-box {
+    width: 100%;
 }

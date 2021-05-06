@@ -18,7 +18,8 @@ body {
 .nav-desktop {
     display: none;
     text-align: center;
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
     height: auto;
     position: absolute;
     padding: 30px 5px 10px 5px;
@@ -36,7 +37,7 @@ body {
 }
 
 .nav-desktop a:hover {
-    color: #90c5f7;
+    color: #d2e5f8;
 }
 
 .nav-mobile {
@@ -49,7 +50,7 @@ body {
 }
 
 .nav-mobile:hover {
-    color: #90c5f7;
+    color: #cfe1f3;
 }
 
 .fa-times {
@@ -61,7 +62,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url('../img/background_mini.jpg');
     background-position: center;
@@ -71,7 +72,7 @@ body {
 
 .hero-shadow {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     height: 100vh;   
     background-color: rgba(0, 0, 0, 0.85);
 }
@@ -118,18 +119,25 @@ body {
     color: rgb(46, 43, 43);
 }
 
+/* MAIN */
+main {
+    background-color: #ddd;
+}
+
 /* ABOUT ME */
 .aboutme-box {
     width: 100vw;
     height: auto;
     margin-top: 25px;
     margin-bottom: 50px;
+    background-color: rgb(226, 224, 224);
 }
 
 h2 {
     text-align: center;
-    margin: 15px;
+    padding: 40px 0 20px 0;
     text-transform: uppercase;
+    font-weight: bold;
     color: #42A5FF;
 }
 
@@ -153,6 +161,47 @@ h2 {
 
 .aboutme-img img {
     height: 350px;
+}
+
+.aboutme-skills {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    background-image: url('../img/skills.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+}
+
+.skills-shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 0;
+}
+
+.skills-item {
+    position: relative;
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.skills-item p {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+}
+
+.skills-item i {
+    width: 70px;
+    padding: 15px;
+    font-size: 35px;
+    color: white;
+    z-index: 1;
 }
 
 /* SERVICES */
@@ -188,11 +237,11 @@ h2 {
 
 /* CONTACT */
 .contact-box {
-    width: 100vw;
+    width: 100%;
     height: auto;
     padding: 15px 0 40px 0;
     color: white;
-    background-color: #181818;
+    background-color: black;
 }
 
 .contact-box h2 {
@@ -216,10 +265,11 @@ h2 {
 /* FOOTER */
 .footer-box {
     width: 100vw;
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     font-size: 12px;
-    color: white;
-    border-top: 0.5px solid rgb(107, 100, 100);
-    background-color: #181818;
+    color: rgb(172, 166, 166);
+    border-top: 0.5px solid rgba(172, 166, 166, .9);
+    /* background-color: #181818; */
+    background-color: black;
 }
