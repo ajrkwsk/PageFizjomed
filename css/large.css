@@ -1,1 +1,48 @@
 /* (min-width: 992px) */
+
+/* NAV */
+.nav-desktop {
+    font-size: 28px;
+}
+
+/* ABOUT ME */
+.aboutme-box {
+    display: flex;
+    width: 70vw;
+    height: auto;
+}
+
+.aboutme-text span {
+    font-size: 22px;
+}
+
+.aboutme-text p {
+    font-size: 19px;
+}
+
+.aboutme-text {
+    width: 50%;
+    height: auto;
+    color: rgb(37, 33, 33);
+}
+
+.aboutme-img {
+    width: 50%;
+    height: 100%;
+}
+
+.aboutme-img img {
+    width: 60%;
+    height: auto;
+    margin: auto 0;
+    padding: 35px;
+}
+
+/* FOOTER */
+.footer-box p {
+    font-size: 14px;
+}
+
+.footer-box {
+    width: 100%;
+}

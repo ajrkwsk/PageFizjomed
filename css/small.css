@@ -13,8 +13,7 @@
     font-size: 20px;
     background: none;
     position: fixed;
-    backdrop-filter: blur(4px);
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     z-index: 2;
 }
 
@@ -34,6 +33,11 @@
     font-size: 20px;
 }
 
+/* ABOUTME */
+.aboutme-skills {
+    width: 100%;
+}
+
 /* SERVICES */
 .services-box {
     display: flex;
@@ -43,7 +47,6 @@
 
  .card {
     display: inline-block;
-    width: 48%;
     padding: 5px;
 }
 
@@ -52,3 +55,8 @@
     width: 100%;
     height: auto;
 } 
+
+/* FOOTER */
+.footer-box {
+    width: 100%;
+}
