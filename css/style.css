@@ -166,7 +166,7 @@ h2 {
 
 .aboutme-skills {
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: auto;
     background-image: url('../img/skills.jpg');
     background-size: cover;
@@ -285,7 +285,7 @@ h2 {
 
 /* FOOTER */
 .footer-box {
-    width: 100vw;
+    width: 100%;
     padding: 10px;
     text-align: center;
     font-size: 12px;
