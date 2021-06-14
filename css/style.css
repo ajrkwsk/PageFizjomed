@@ -247,6 +247,30 @@ h2 {
     height: auto;
 }
 
+/* QUESTIONS */
+.questions {
+    padding: 0 15px;
+    text-align: justify;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+.questions h2 {
+    border-top: 1px solid grey;
+}
+
+summary {
+    padding: 10px;
+}
+
+.questions p {
+    background-color: #ddd;
+}
+
+.questions a {
+    text-decoration: none;
+}
+
 /* CONTACT */
 .contact-box {
     width: 100%;

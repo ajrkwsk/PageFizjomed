@@ -141,6 +141,18 @@ h2 {
     height: 40vh;
 }
 
+/* QUESTIONS */
+.questions {
+    text-align: center;
+    font-size: 20px;
+}
+
+.questions p {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* FOOTER */
 .footer-box {
     width: 100%;
